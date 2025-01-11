@@ -1,0 +1,7 @@
+#ignore certain files due to size capacity limit on github
+#we are ignoring the image data and storing elsewhere due to size limits
+
+.env
+
+waste_dataset/*
+!waste_dataset/.keep
