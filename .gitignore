@@ -4,4 +4,4 @@
 .env
 
 waste_dataset/*
-!waste_dataset/.keep
+!waste_dataset/.keep 
