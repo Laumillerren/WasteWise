@@ -5,3 +5,6 @@
 
 waste_dataset/*
 !waste_dataset/.keep 
+
+dataset-original/*
+!dataset-origional/.keep 
