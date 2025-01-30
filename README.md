@@ -14,3 +14,6 @@ Examples: Styrofoam, plastic bags (unless collected separately), greasy pizza bo
 ### Compostable Material:
 Definition: Compostable materials are organic matter that can break down into nutrient-rich soil through the natural composting process, facilitated by microorganisms, heat, and moisture.
 Examples: Fruit and vegetable scraps, coffee grounds, eggshells, yard waste, compostable paper products, certified compostable packaging.
+
+
+This dataset was compiled from images retreived from google api, and Trashnet dataset (https://github.com/garythung/trashnet?tab=readme-ov-file )
