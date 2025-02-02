@@ -30,4 +30,21 @@
 
 - categories unclear 
 
+# Manipulations: 14
+-  gray scale
+- rot 90, 180, 270
+- horizontal flip, vert flip
+- noise
+- blur
+- brighten
+- darken
+- invert colors
+- posterize
+- solarize
+- equalize 
+
+# standardize
+
+- images -> 224x224 numpy arrays or torch tensors
+
 
