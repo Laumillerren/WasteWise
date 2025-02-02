@@ -16,4 +16,8 @@ Definition: Compostable materials are organic matter that can break down into nu
 Examples: Fruit and vegetable scraps, coffee grounds, eggshells, yard waste, compostable paper products, certified compostable packaging.
 
 
-This dataset was compiled from images retreived from google api, and Trashnet dataset (https://github.com/garythung/trashnet?tab=readme-ov-file )
+**This dataset was compiled from images retreived from:**
+
+Google API
+
+Trashnet dataset (https://github.com/garythung/trashnet?tab=readme-ov-file )
