@@ -55,7 +55,8 @@ def augment_image(path):
 def process_file(file):
     im_id = file.split('/')[-1]
     cat = file.split('/')[-2]
-    out_path = f"/home/luke/Drexel/Winter-25/project/data_minips/{cat}"# Change path. where the data is going 
+    #out_path = f"/home/luke/Drexel/Winter-25/project/data_minips/{cat}"# Change path. where the data is going 
+    out_path = f"/Users/laurenmiller/Documents/Drexel MSDS/Winter 24-25/Winter-25/project/data_minips/{cat}"# Change path. where the data is going 
     if not os.path.exists(out_path):
         os.makedirs(out_path)
     manipulations = augment_image(file)
@@ -64,7 +65,8 @@ def process_file(file):
     return file
 
 if __name__ == '__main__':
-    dir_path = '/home/luke/Drexel/Winter-25/project/data'# Change path. where data is stored
+    #dir_path = '/home/luke/Drexel/Winter-25/project/waste_dataset'# Change path. where data is stored
+    dir_path = '/Users/laurenmiller/Documents/Drexel MSDS/Winter 24-25/Winter-25/project/waste_dataset'# Change path. where data is stored
     all_files = [os.path.join(root, f)
                  for root, _, files in os.walk(dir_path)
                  for f in files]
