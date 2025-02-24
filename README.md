@@ -16,8 +16,43 @@ Definition: Compostable materials are organic matter that can break down into nu
 Examples: Fruit and vegetable scraps, coffee grounds, eggshells, yard waste, compostable paper products, certified compostable packaging.
 
 
-**This dataset was compiled from images retreived from:**
+### This dataset was compiled from images retreived from:
 
-Google API
+**Google API**
 
-Trashnet dataset (https://github.com/garythung/trashnet?tab=readme-ov-file )
+**Trashnet dataset (https://github.com/garythung/trashnet?tab=readme-ov-file )**
+
+**Drinking waste classification**
+
+- 4832 images
+- sorted by dir
+- 4 classes of drinking waste: Aluminium Cans, Glass bottles, PET (plastic) bottles and HDPE (plastic) Milk bottles.
+- All images in this dataset are recyclable 
+
+**Taco Dataset**
+
+- 1530 images 
+-  It contains images of litter taken under diverse environments: woods, roads and beaches.
+- raw images and annotation json
+- need to get the categories of trash correct to sort
+
+### Standardization and Augmentation: 
+
+**Manipulations: 14 different manipulations**
+-  gray scale
+- rot 90, 180, 270
+- horizontal flip, vert flip
+- noise
+- blur
+- brighten
+- darken
+- invert colors
+- posterize
+- solarize
+- equalize 
+
+**Standardize**
+
+- images -> 224x224 numpy arrays or torch tensors
+
+### Images are loaded into Hugging Face
